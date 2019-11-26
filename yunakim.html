@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .lang  {
+            color: gray;
+            font-size: 9px;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            width: 1048px;
+            border: 1px solid black;
+        }
+
+        .gnbContainer {
+            display: flex;
+        }
+        
+        .logo {
+            width: 40%;
+        }
+
+        .gnb {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .gallery {
+            width: 1000px;
+            margin: 20px auto 0 auto;
+        }
+
+        .rolling img {
+            width: 1000px;
+        }
+
+        .cardsection {
+            padding-left: 0px;
+            margin: 1px 0 0 0;
+        }
+
+        .item {
+            float: left;
+            list-style: none;
+            margin: 0 1px 0 0;
+        }
+
+        .item img {
+            width: 142px;
+            height: 86px;
+        }
+
+        .last {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang" style="float: right;">KOREAN | ENGLISH | LOGIN | SITEMAP </div>
+        <div class="gnbContainer" style="clear: both;">
+            <div class="logo">
+                <img src="assets/common/logo.png" alt="">
+            </div>
+            <div class="gnb">
+                <div class="item">About Yuna</div>
+                <div class="item">News</div>
+                <div class="item">Gallery</div>
+                <div class="item">Video</div>
+                <div class="item">Yuna Space</div>
+                <div class="item">Community</div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="rolling">
+                    <img src="assets/yuna1.png" alt="">
+            </div>
+            <div class="images">
+                <ul class="cardsection">
+                    <li class="item"><img src="assets/card1.jpg" alt=""></li>
+                    <li class="item"><img src="assets/card2.jfif" alt=""></li>
+                    <li class="item"><img src="assets/card3.jfif" alt=""></li>
+                    <li class="item"><img src="assets/card4.jpg" alt=""></li>
+                    <li class="item"><img src="assets/card5.jfif" alt=""></li>
+                    <li class="item"><img src="assets/card6.jpg" alt=""></li>
+                    <li class="item last"><img src="assets/card7.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
